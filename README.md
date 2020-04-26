@@ -7,7 +7,7 @@ My repository for my simple prime number generator. The goals are:
 Licensed under the Apache-2.0 License. See COPYING file in the project root for full license information.
 
 ## Requirements:
-- Any ANSI C compiler.
+- Any C compiler.
 
 ## Build instructions:
 ### On Linux/macOS:
@@ -26,5 +26,5 @@ Use this instead:
 The resulting programme is `a.out`.
 
 ### On Windows:
-Install an ANSI C compiler, such as from MinGW or Cygwin, and make sure that the compiler has been added to your `PATH`.
+Install a C compiler, such as from MinGW or Cygwin, and make sure that the compiler has been added to your `PATH`.
 The command above should work. Note that the resulting programme is `a.exe` instead of `a.out`.
