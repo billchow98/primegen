@@ -2,8 +2,7 @@
 
 My repository for my simple prime number generator. The goals are:
 1. To have a relatively fast prime number generator that does not pre-calculate the primes.
-2. To have a simple implementation without any sophisticated algorithm.
-3. To improve on the many prime number generators online by condensing the code.
+2. To have a simple, low memory implementation without any sophisticated algorithm (on my computer, it only uses 1 MB of RAM).
 
 Licensed under the Apache-2.0 License. See COPYING file in the project root for full license information.
 
