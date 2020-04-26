@@ -15,4 +15,11 @@ Compile with:
 
     cc primegen.c -march=native -Ofast -ansi -m64 -static
     
+If you receive:
+    cc1: *sorry, unimplemented:* 64-bit mode not compiled in
+
+Use this instead:
+
+    cc primegen.c -march=native -Ofast -ansi -static
+
 The resulting programme is a.out.
