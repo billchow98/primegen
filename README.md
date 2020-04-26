@@ -27,4 +27,4 @@ The resulting programme is a.out.
 
 ### On Windows:
 Install an ANSI C compiler, such as from MinGW or Cygwin, and make sure that the compiler has been added to your `PATH`.
-The command above should work.
+The command above should work. Note that the resulting programme is a.exe instead of a.out.
