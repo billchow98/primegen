@@ -13,7 +13,7 @@ Licensed under the Apache-2.0 License. See COPYING file in the project root for 
 ### On Linux:
 Compile with:
 
-    cc primegen.c -march=native -Ofast -ansi -m64 -static
+`cc primegen.c -march=native -Ofast -ansi -m64 -static`
     
 If you receive:
 
@@ -21,6 +21,6 @@ If you receive:
 
 Use this instead:
 
-    cc primegen.c -march=native -Ofast -ansi -static
+`cc primegen.c -march=native -Ofast -ansi -static`
 
 The resulting programme is a.out.
