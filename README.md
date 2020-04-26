@@ -5,3 +5,12 @@ My repository for my simple prime number generator. The goals are:
 2. To have a simple implementation without any sophisticated algorithm.
 
 Licensed under the Apache-2.0 License. See COPYING file in the project root for full license information.
+
+## Requirements:
+- Any ANSI C compiler.
+
+## Build instructions:
+### On Linux:
+Compile with:
+    cc primegen.c -march=native -Ofast -ansi -m64 -static
+The resulting programme is a.out.
