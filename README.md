@@ -17,7 +17,7 @@ Compile with:
     
 If you receive:
 
-   `cc1:`**`sorry, unimplemented:`**`64-bit mode not compiled in`
+`cc1:`**`sorry, unimplemented:`**`64-bit mode not compiled in`
 
 Use this instead:
 
