@@ -10,7 +10,7 @@ Licensed under the Apache-2.0 License. See COPYING file in the project root for 
 - Any ANSI C compiler.
 
 ## Build instructions:
-### On Linux:
+### On Linux/macOS:
 Compile with:
 
 `cc primegen.c -march=native -Ofast -ansi -m64 -static`
@@ -24,3 +24,7 @@ Use this instead:
 `cc primegen.c -march=native -Ofast -ansi -static`
 
 The resulting programme is a.out.
+
+### On Windows:
+Install an ANSI C compiler, such as from MinGW or Cygwin, and make sure that the compiler has been added to your `PATH`.
+The command above should work.
