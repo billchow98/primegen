@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Apache-2.0
 // Copyright (C) 2020 Bill Chow
-// Generates primes up to (2 ^ 32) - 1.
+// Generates primes up to (2 ^ 31) - 1.
 // Stop when satisfied.
 
 #include <stdio.h>
