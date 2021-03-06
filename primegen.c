@@ -20,9 +20,9 @@
  */
 #include <stdio.h>
 main() {
-  int i, a = 1;
+	int i, a = 1;
 start:
-  for (i = 2, ++a; i * i <= a; ++i) if (a % i == 0) goto start;
-  printf("%d ", a);
-  goto start;
+	for (i = 2, ++a; i * i <= a; ++i) if (a % i == 0) goto start;
+	printf("%d ", a);
+	goto start;
 }
