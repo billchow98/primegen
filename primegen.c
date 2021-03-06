@@ -1,5 +1,5 @@
 /**
- * Copyright 2020 Bill Chow. All rights reserved.
+ * Copyright 2020, 2021 Bill Chow. All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
  */
 #include <stdio.h>
 main() {
-  register i, a = 1;
+  int i, a = 1;
 start:
   for (i = 2, ++a; i * i <= a; ++i) if (a % i == 0) goto start;
   printf("%d ", a);
